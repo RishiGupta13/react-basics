@@ -1,7 +1,8 @@
 import './App.css';
+import { UserGreeting } from './components/UserGreeting';
 // import {Greet} from './components/Greet'
 // import {Message} from './components/Message'
-import {ParentComponent} from './components/ParentComponent'
+// import {ParentComponent} from './components/ParentComponent'
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
       </Greet> */}
 
       {/* <Message/> */}
-      <ParentComponent/>
+      {/* <ParentComponent/> */}
+      <UserGreeting/>
     </div>
   );
 }
