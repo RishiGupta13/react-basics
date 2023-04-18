@@ -1,6 +1,7 @@
 import './App.css';
 // import {Greet} from './components/Greet'
-import {Message} from './components/Message'
+// import {Message} from './components/Message'
+import {ParentComponent} from './components/ParentComponent'
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
         <p>I beat John Cena</p>
       </Greet> */}
 
-      <Message/>
+      {/* <Message/> */}
+      <ParentComponent/>
     </div>
   );
 }
