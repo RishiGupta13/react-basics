@@ -4,7 +4,7 @@ export const NameList=()=>{
     return <div> 
         {
             names.map((name)=>{
-                return <h2>{name}</h2>
+                return <h2 key={name}>{name}</h2>
                
             })
         }
